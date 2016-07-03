@@ -1,4 +1,8 @@
+/*
+* Testando a possibilidade de criar funções em structs.
+*/
 #include <iostream>
+
 using namespace std;
 
 struct teste {
