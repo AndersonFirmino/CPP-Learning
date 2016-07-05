@@ -1,4 +1,7 @@
-#include "carro.hpp"
+#include <iostream>
+#include "Carro.hpp"
+
+using namespace std;
 
 Carro::Carro(){
     cout << "contruindo o objeto" << endl;

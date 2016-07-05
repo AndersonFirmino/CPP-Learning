@@ -1,3 +1,7 @@
+#ifndef Carro_h
+#define Carro_h
+
+
 #include <iostream>
 
 using namespace std;
@@ -15,3 +19,5 @@ private:
     int cor;
     int aceleracao;
 };
+
+#endif
