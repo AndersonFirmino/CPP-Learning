@@ -17,7 +17,7 @@ int soma(int x, int y) {
     return x + x;
 }
 
-int main(int argc, char const *argv[]) {    
+int main(int argc, char const *argv[]) {
     cout << soma(2) << endl;
     cout << soma(2, 2) << endl;
     return 0;
