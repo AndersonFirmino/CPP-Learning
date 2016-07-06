@@ -14,7 +14,7 @@ int main() {
 	cout << ptr  << endl;
 	cout << &ptr << endl;
 	cout << *ptr << endl;
-	
+
 
 
 	return 0;

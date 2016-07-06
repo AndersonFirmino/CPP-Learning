@@ -9,16 +9,16 @@ nome.
 O compilador sabe diferencia estas funções olhando seus parametros.
 Assim ele sabe qual função chamar analisando o que foi passado como parametro.
 */
-int quad (int x) {
-    return x * x;
+int soma(int x) {
+    return x + 2;
 }
 
-float quad(float x) {
-    return x * x;
+int soma(int x, int y) {
+    return x + x;
 }
 
-int main(int argc, char const *argv[]) {
-    cout << quad(2) << endl;
-    cout << quad(2.5) << endl;
+int main(int argc, char const *argv[]) {    
+    cout << soma(2) << endl;
+    cout << soma(2, 2) << endl;
     return 0;
 }

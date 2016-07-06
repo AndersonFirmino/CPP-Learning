@@ -1,0 +1,19 @@
+In file included from /home/anderson/Documentos/Programming/Development/C++_Estude/CPP_Learning/estudo_poo/heranca/class_cachorro/Cachorro.hpp:3:0,
+                 from /home/anderson/Documentos/Programming/Development/C++_Estude/CPP_Learning/estudo_poo/heranca/class_cachorro/Cachorro.cpp:2:
+/home/anderson/Documentos/Programming/Development/C++_Estude/CPP_Learning/estudo_poo/heranca/class_cachorro/Canis.hpp:9:1: error: expected ‘;’ after class definition
+ }
+ ^
+In file included from /home/anderson/Documentos/Programming/Development/C++_Estude/CPP_Learning/estudo_poo/heranca/class_cachorro/Cachorro.cpp:2:0:
+/home/anderson/Documentos/Programming/Development/C++_Estude/CPP_Learning/estudo_poo/heranca/class_cachorro/Cachorro.hpp:9:11: error: expected ‘;’ at end of member declaration
+     char *owner
+           ^
+/home/anderson/Documentos/Programming/Development/C++_Estude/CPP_Learning/estudo_poo/heranca/class_cachorro/Cachorro.hpp:10:1: error: expected ‘;’ after class definition
+ }
+ ^
+/home/anderson/Documentos/Programming/Development/C++_Estude/CPP_Learning/estudo_poo/heranca/class_cachorro/Cachorro.cpp: In constructor ‘Cachorro::Cachorro(const char*, const char*)’:
+/home/anderson/Documentos/Programming/Development/C++_Estude/CPP_Learning/estudo_poo/heranca/class_cachorro/Cachorro.cpp:7:36: error: ‘strlen’ was not declared in this scope
+     owner = new char[strlen(a_owner) + 1];
+                                    ^
+/home/anderson/Documentos/Programming/Development/C++_Estude/CPP_Learning/estudo_poo/heranca/class_cachorro/Cachorro.cpp:8:26: error: ‘strcpy’ was not declared in this scope
+     strcpy(owner, a_owner);
+                          ^
